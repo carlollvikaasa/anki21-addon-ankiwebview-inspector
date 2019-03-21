@@ -7,7 +7,12 @@ from aqt.qt import *
 
 TITLE = 'web dev tools'
 FONT_SIZE = 12
-
+QDOCKWIDGET_STYLE = '''
+    QDockWidget::title {
+        padding-top: 0;
+        padding-bottom: 0;
+}
+'''
 
 class WebDevToolsPane(QDockWidget):
     """ dockable web dev tools pane """
@@ -18,6 +23,8 @@ class WebDevToolsPane(QDockWidget):
         self.setAllowedAreas(
             Qt.LeftDockWidgetArea|Qt.RightDockWidgetArea|Qt.BottomDockWidgetArea)
         self.toggleViewAction().setText(f'show/hide "{title}"')
+        # make the title bar thinner
+        self.setStyleSheet(QDOCKWIDGET_STYLE)
         self.web = None
 
     def setup_web(self, page):
@@ -78,6 +85,7 @@ def main():
         return
 
     pane = WebDevToolsPane(TITLE, mw)
+
     mw.addDockWidget(Qt.RightDockWidgetArea, pane)
 
     # メインウィンドウ起動時にはパネルを閉じておく
