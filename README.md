@@ -6,7 +6,7 @@ This add-on provides a pane with [Qt WebEngine Developer Tools](https://doc.qt.i
 This add-on requires Qt version 5.11 or higher. To detect the Qt version, go to the Anki "Help" menu > "About...".
 
 #### Usage:
-This add-on adds an item **Inspect** to the right-click context menu on an instance of AnkiWebView, such as *main webview*, *top toolbar*, *bottom toolbar*, *editor*. When clicking the item, an **Inspector** pane will be shown. The pane can be docked inside an Anki main window. It moves when the title bar is dragged. It is docked or undocked when the title bar is double-clicked.
+This add-on adds an item `Inspect` to the right-click context menu on an instance of AnkiWebView, such as *main webview*, *top toolbar*, *bottom toolbar*, *editor*. When clicking the item, an **Inspector** pane will be shown. The pane can be docked inside an Anki main window. It moves when the title bar is dragged. It is docked or undocked when the title bar is double-clicked.
 
 #### Note:
 **Without** this add-on, you can debug the webviews using an external *Google Chrome* instance. For more information, see [Writing Anki 2.1.x Add-ons#Webview Changes](https://apps.ankiweb.net/docs/addons.html#_webview_changes).
