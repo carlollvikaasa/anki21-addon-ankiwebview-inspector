@@ -12,6 +12,8 @@ This add-on adds an item **Inspect** to the right-click context menu on an insta
 **Without** this add-on, you can debug the webviews using an external *Google Chrome* instance. For more information, see [Writing Anki 2.1.x Add-ons#Webview Changes](https://apps.ankiweb.net/docs/addons.html#_webview_changes).
 
 #### Screenshots:
+![image](/images/screenshot.png)
+- - -
 ![Imgur](https://i.imgur.com/lPGWqpe.png)
 - - -
 ![Imgur](https://i.imgur.com/d1AxXQu.png)
