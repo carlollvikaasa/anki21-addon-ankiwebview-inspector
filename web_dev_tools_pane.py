@@ -5,7 +5,7 @@ from aqt import mw
 from aqt.qt import *
 
 
-TITLE = 'web dev tools'
+TITLE = 'AnkiWebView Inspector'
 FONT_SIZE = 12
 
 
